@@ -8,12 +8,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<parent>
-		<groupId>org.uprade.sample.zipkin</groupId>
-		<artifactId>slueth-zipkin-server-client</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
-	</parent>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.10.RELEASE</version>
+    </parent>
+
 
 	<properties>
 		<project.encoding>UTF-8</project.encoding>
